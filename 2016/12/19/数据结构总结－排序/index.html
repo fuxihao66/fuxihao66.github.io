@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>常用排序总结 | LancerFoo&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/2016/12/19/数据结构总结－排序/">常用排序总结</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">December 19 2016</p>
+  </section>
+
+  <section class="article-entry">
+    <h2>排序总结</h2>
+<ol>
+<li>插入排序
+<ol>
+<li>直接插入排序
+<ul>
+<li>算法思想：<strong>从第2到第n个位置开始，对于第i个元素，在1～i－1中找到适当的位置插入，直到插入了第n个元素</strong></li>
+<li>需要n－1趟排序</li>
+<li>稳定</li>
+</ul>
+</li>
+<li>希尔排序
+<ul>
+<li>算法思想：<strong>把大的列表变成多个小列表（每个列表的元素间隔于列表个数相同），分别直接插入排序；然后让步长递减至1。</strong></li>
+<li>不稳定</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>交换排序
+<ol>
+<li>冒泡排序
+<ul>
+<li>算法思想：<strong>每一趟依次比较第一和第二个索引、第二和第三。。。第n－1和第n，每次如果逆序就交换；每一趟把最小、次小。。。交换出来</strong></li>
+<li><strong>排序终止的条件是一趟排序中没有发生交换</strong></li>
+<li>需要1～n－1趟排序</li>
+<li>稳定</li>
+</ul>
+</li>
+<li>快速排序
+<ul>
+<li>算法思想：<strong>选取枢轴，使列表关键字枢轴左边的小于枢轴关键字，右边大于枢轴；递归地处理左右列表</strong></li>
+<li>不稳定</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>选择排序
+<ol>
+<li>直接选择排序
+<ul>
+<li>算法思想：<strong>第i趟排序中在n－i＋1个关键字中找到最小的，作为第i个元素</strong></li>
+<li>不稳定（选择过程中可能因为比较的对象选取，使得两个相同大小顺序交换）</li>
+</ul>
+</li>
+<li>堆排序
+<ul>
+<li>堆：节点关键值比左右子树小（或大）</li>
+<li>两个问题：
+<ul>
+<li>生成初始堆：<strong>先随意生成一个完全二叉树，从最后一个非终端节点开始（n／2），从下往上筛选</strong></li>
+<li>输出堆顶后如何重新得到堆：<strong>将堆中最后一个元素作为堆顶，然后从上到下调整</strong></li>
+</ul>
+</li>
+<li>排序过程：
+<ul>
+<li>生成堆</li>
+<li>输出堆顶</li>
+<li>重新得到堆</li>
+<li>重复直到堆为空</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> LancerFoo's Blog </p>
+      <p class="subtitle"> Start with nothing. End with nothing. </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="DrakeLeung"
+  href="https://twitter.com/intent/tweet?text=>排序总结</h2>
+<ol>
+<li>"
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'drakeleung';
+  
+  var disqus_url = 'http://yoursite.com/2016/12/19/数据结构总结－排序/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>
