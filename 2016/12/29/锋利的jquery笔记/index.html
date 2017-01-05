@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>锋利的jQuery笔记 | LancerFoo&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/2016/12/29/锋利的jquery笔记/">锋利的jQuery笔记</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">December 29 2016</p>
+  </section>
+
+  <section class="article-entry">
+    <h2 id="锋利的jQuery笔记"><a href="#锋利的jQuery笔记" class="headerlink" title="锋利的jQuery笔记"></a>锋利的jQuery笔记</h2><h3 id="第一章：jQuery对象和DOM对象"><a href="#第一章：jQuery对象和DOM对象" class="headerlink" title="第一章：jQuery对象和DOM对象"></a>第一章：jQuery对象和DOM对象</h3><ol>
+<li>什么是jQuery对象<ul>
+<li>通过jQuery包装DOM对象后产生的对象</li>
+</ul>
+</li>
+<li><p>实例</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$(&quot;#foo&quot;).html(); //通过#foo获取的是id为foo的jQuery对象</div></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">document.getElementById(&quot;foo&quot;); //通过getElement方法获取的js对象</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h3 id="第二章：选择器"><a href="#第二章：选择器" class="headerlink" title="第二章：选择器"></a>第二章：选择器</h3><ol>
+<li><p><strong>选择器种类</strong>：</p>
+<ol>
+<li><p>基本选择器：</p>
+<blockquote>
+<p>使用说明：对id，class，tagname，同时可以把多个一起使用，结果返回多个选择器结果的<strong>并集</strong></p>
+</blockquote>
+<ul>
+<li><p>实例：    </p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$(<span class="string">"div, span, p#highlighted"</span>).css(<span class="string">"background"</span>, <span class="string">"#bbffaa"</span>); </div><div class="line">	<span class="comment">//改变所有div，span，和id为highlighted的p的背景色</span></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>层次选择器：</p>
+</li>
+<li>过滤选择器：</li>
+<li>表单选择器：</li>
+</ol>
+</li>
+<li><p><strong>技巧</strong>：</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$category = $(&quot;ul li:gt(6):not(:last)&quot;); //get from the 8th element to the second last one</div></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$category = $(&quot;ul li:gt(5)&quot;); //get from the 7th to the last one</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$category = $(&quot;ul li:eq(1)&quot;); //get the 2nd element in the list</div></pre></td></tr></table></figure>
+</code></pre>
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> LancerFoo's Blog </p>
+      <p class="subtitle"> Start with nothing. End with nothing. </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="DrakeLeung"
+  href="https://twitter.com/intent/tweet?text= id="锋利的jQuery笔记"><a"
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'drakeleung';
+  
+  var disqus_url = 'http://yoursite.com/2016/12/29/锋利的jquery笔记/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>
