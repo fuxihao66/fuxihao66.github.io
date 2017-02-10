@@ -88,45 +88,66 @@
 
 
 <meta name="description" content="Notes of PHP learning #1
+
+
 String
 
+
 Single Quotation Style
+
 the difference between single and double is that whether \ has a transferring meaning
+
 
 
 Double Quotation Style
 
+
 Heredoc Structure
-Usage: using t">
+
+Usage:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="PHP Note1">
 <meta property="og:url" content="http://yoursite.com/2016/11/04/Phpnotes/index.html">
 <meta property="og:site_name" content="Foo's Whispers">
 <meta property="og:description" content="Notes of PHP learning #1
+
+
 String
 
+
 Single Quotation Style
+
 the difference between single and double is that whether \ has a transferring meaning
+
 
 
 Double Quotation Style
 
+
 Heredoc Structure
-Usage: using t">
+
+Usage:">
 <meta property="og:updated_time" content="2017-01-05T14:53:03.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PHP Note1">
 <meta name="twitter:description" content="Notes of PHP learning #1
+
+
 String
 
+
 Single Quotation Style
+
 the difference between single and double is that whether \ has a transferring meaning
+
 
 
 Double Quotation Style
 
+
 Heredoc Structure
-Usage: using t">
+
+Usage:">
 
 
 
@@ -352,51 +373,59 @@ Usage: using t">
       
 
       
-        <h2 id="Notes-of-PHP-learning-1"><a href="#Notes-of-PHP-learning-1" class="headerlink" title="Notes of PHP learning #1"></a>Notes of PHP learning #1</h2><ol>
-<li><p>String</p>
+        <h2>Notes of PHP learning #1</h2>
+<ol>
+<li>
+<p>String</p>
 <ul>
-<li>Single Quotation Style<ul>
+<li>
+<p>Single Quotation Style</p>
+<ul>
 <li>the difference between <em>single</em> and <em>double</em> is that whether <strong>\</strong> has a transferring meaning</li>
 </ul>
 </li>
-<li><p>Double Quotation Style</p>
-<ul>
-<li>Heredoc Structure</li>
-<li>Usage: using the signal defined by yourself to indicate the end of the String</li>
-<li>A Wrong Example: </li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">class foo &#123;</div><div class="line">    public $bar = &lt;&lt;&lt;EOT</div><div class="line">bar</div><div class="line">    EOT;//There should not be any character before EOT</div><div class="line">&#125;</div><div class="line">?&gt;</div></pre></td></tr></table></figure>
+<li>
+<p>Double Quotation Style</p>
 </li>
-</ul>
+<li>
+<p>Heredoc Structure</p>
 <ul>
-<li><p>Nowdoc Structure</p>
+<li>Usage: using the signal defined by yourself to indicate the end of the String</li>
+<li>A Wrong Example:</li>
+</ul>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">class foo &#123;</div><div class="line">    public $bar = &lt;&lt;&lt;EOT</div><div class="line">bar</div><div class="line">    EOT;//There should not be any character before EOT</div><div class="line">&#125;</div><div class="line">?&gt;</div></pre></td></tr></table></figure></p>
+</li>
+<li>
+<p>Nowdoc Structure</p>
 <ul>
 <li>Similar to <strong>Single Quotation Style</strong></li>
-<li>the signal should be quoted with <strong>‘</strong></li>
-<li><p>Example</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">  	&lt;?php</div><div class="line">$str = &lt;&lt;&lt;&apos;EOD&apos;</div><div class="line">Example of string</div><div class="line">spanning multiple lines</div><div class="line">using nowdoc syntax.</div><div class="line">EOD;</div><div class="line">?&gt;</div></pre></td></tr></table></figure>
+<li>the signal should be quoted with <strong>'</strong></li>
+<li>Example</li>
+</ul>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">  	&lt;?php</div><div class="line">$str = &lt;&lt;&lt;&apos;EOD&apos;</div><div class="line">Example of string</div><div class="line">spanning multiple lines</div><div class="line">using nowdoc syntax.</div><div class="line">EOD;</div><div class="line">?&gt;</div></pre></td></tr></table></figure></p>
 </li>
 </ul>
 </li>
-</ul>
-</li>
-<li><p>Resolution of Variables in Strings</p>
+<li>
+<p>Resolution of Variables in Strings</p>
 <ul>
-<li><p>Simple Syntax</p>
+<li>
+<p>Simple Syntax</p>
 <ul>
-<li><p>Ex1:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">  	&lt;?php </div><div class="line">$juice = &quot;apple&quot;;</div><div class="line">echo &quot;He drank some $juice juice.&quot;.PHP_EOL;</div><div class="line">// Invalid. &quot;s&quot; is a valid character for a variable name, but the variable is $juice.</div><div class="line">echo &quot;He drank some juice made of $juices.&quot;;</div><div class="line">?&gt;</div></pre></td></tr></table></figure>
-</li>
-<li><p>Ex2: (<strong>Remark: focus on the key. Comparing it with the next example</strong>)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">$arr = array(</div><div class="line">	&apos;name&apos; =&gt; &apos;fuxihao&apos;,</div><div class="line">	&apos;age&apos;  =&gt; 19,</div><div class="line">	&apos;school&apos; =&gt; &apos;Beihang&apos;,</div><div class="line">);</div><div class="line">echo &lt;&lt;&lt;EOT</div><div class="line">My name is $arr[name]</div><div class="line">My age is $arr[age].</div><div class="line">My school is $arr[school]</div><div class="line">EOT;</div><div class="line">	?&gt;</div></pre></td></tr></table></figure>
-</li>
+<li>Ex1:</li>
 </ul>
-</li>
-<li><p>Complicated Syntax</p>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">  	&lt;?php </div><div class="line">$juice = &quot;apple&quot;;</div><div class="line">echo &quot;He drank some $juice juice.&quot;.PHP_EOL;</div><div class="line">// Invalid. &quot;s&quot; is a valid character for a variable name, but the variable is $juice.</div><div class="line">echo &quot;He drank some juice made of $juices.&quot;;</div><div class="line">?&gt;</div></pre></td></tr></table></figure></p>
 <ul>
-<li><p>Ex1:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">	</div></pre></td></tr></table></figure></li>
+<li>Ex2: (<strong>Remark: focus on the key. Comparing it with the next example</strong>)</li>
 </ul>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">$arr = array(</div><div class="line">	&apos;name&apos; =&gt; &apos;fuxihao&apos;,</div><div class="line">	&apos;age&apos;  =&gt; 19,</div><div class="line">	&apos;school&apos; =&gt; &apos;Beihang&apos;,</div><div class="line">);</div><div class="line">echo &lt;&lt;&lt;EOT</div><div class="line">My name is $arr[name]</div><div class="line">My age is $arr[age].</div><div class="line">My school is $arr[school]</div><div class="line">EOT;</div><div class="line">	?&gt;</div></pre></td></tr></table></figure></p>
+</li>
+<li>
+<p>Complicated Syntax</p>
+<ul>
+<li>Ex1:</li>
+</ul>
+<p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">	</div></pre></td></tr></table></figure></p>
 </li>
 </ul>
 </li>
@@ -548,7 +577,7 @@ Usage: using t">
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Notes-of-PHP-learning-1"><span class="nav-number">1.</span> <span class="nav-text">Notes of PHP learning #1</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#undefined"><span class="nav-number">1.</span> <span class="nav-text">Notes of PHP learning #1</span></a></li></ol></div>
             
 
           </div>
