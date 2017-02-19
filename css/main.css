@@ -1705,7 +1705,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a4ff62;
+  background: #ff7aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2711,6 +2711,7 @@ hr {
   padding: 0 10px;
   border-width: 2px;
   border-radius: 0;
+  color: #ffe4e1;
 }
 .headband {
   display: none;
