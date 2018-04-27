@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/b/aliquam/</loc>
+    <lastmod>2017-10-31T22:42:51-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/b/</loc>
+    <lastmod>2017-10-31T22:27:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/team_intro/</loc>
+    <lastmod>2017-10-31T22:27:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/res/</loc>
+    <lastmod>2017-10-31T22:27:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/projs/</loc>
+    <lastmod>2017-10-31T22:27:21-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/b/tempus/</loc>
+    <lastmod>2017-10-31T22:26:13-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/b/magna/</loc>
+    <lastmod>2017-10-31T22:26:09-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/b/ipsum/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/res/citymodeling/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/res/phy/</loc>
+    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2017-10-31T22:42:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2017-10-31T22:42:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2017-10-31T22:42:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
