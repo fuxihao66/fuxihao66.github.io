@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>团队介绍 on 北航 数学、信息与行为教育部重点实验室</title>
+    <title>团队介绍 on 基于流线场共轭映射的复杂曲面高精度数控加工新方法成果推广网</title>
     <link>https://fuxihao66.github.io/team_intro/</link>
-    <description>Recent content in 团队介绍 on 北航 数学、信息与行为教育部重点实验室</description>
+    <description>Recent content in 团队介绍 on 基于流线场共轭映射的复杂曲面高精度数控加工新方法成果推广网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate>
     
 	<atom:link href="https://fuxihao66.github.io/team_intro/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>团队介绍</title>
+      <link>https://fuxihao66.github.io/team_intro/team/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>https://fuxihao66.github.io/team_intro/team/</guid>
+      <description>郑志明：男，中国科学院信息技术科学院院士，博士，教授，博士生导师，教育部数学、信息与行为重点实验室主任，教育部应用数学创新团队负责人，工信部复杂系统与科学工程计算国际研究中心主任，曾任北京航空航天大学副校长。1987 年获北京大学理学博士学位后 留校任教，2003 年引进北京航空航天大学。兼任国家自然科学基金委数理部第五届天元数学基金领导小组成员，教育部高等学校数学专业教学指导委员会副主任，Springer 出版的 SCI 期刊《Mathematics in Computer Science》和美国数学会数学研究所 SCI 期刊《Mathematical Biosciences and Engineering》主编，担任十余次国际会议学术或程序委员会主席。承担 973 项目、863 高技术计划项目、 国家科技重大项目、国家自然科学基金、原国防科工委重大专项等项目20余项，2017年当选中国科学院信息技术科学院院士，2015年1月9日，在2014年度国家科学技术奖励大会上，郑志明教授主持的某项目获国家技术发明一等奖，获得何梁何利科学与技术进步奖。在国内外一流期刊发表学术论文50余篇，编著2本，申请国家发明专利31项，其中已授权专利14项，获省部级科技奖 2 项。 从事动力系统、信息科学领域中海量信息系统非线性科学问题与计算复杂性理论、信息安全等方向的研究工作。带领研究团队在《Physical Review Letters》、 《Nonlinearity》、《ACM Transactions on Embedded Computing Systems》、《Journal of Statistical Mechanics》、《New Journal of Physics》和―ACM International Symposium on Symbolic and Algebraic Computation‖、―International Conference on Computer Aided Verification‖、―ACM International Conference on Hybrid Systems: Computation and Control‖等一流期刊和计算机科学领域顶级会议上发表一系列原创性成果。
+候安平：男，博士，北京航空航天大学能源与动力工程学院副教授，中国空气动力学会气动弹性专业委员会委员。1998年和2003年于北京航空航天大学能源与动力工程学院获得学士和博士学位。2004-2005在北航博士后流动站作博士后研究，2005年底留校任教，2006年评为副教授。2006-2015年任北航高等工程学院副院长，2013-2014英国南普顿大学任访问学者。主要研究风扇/压气机气动设计、叶轮机械非定常流动、叶轮机械气动弹性等。在相关方向发表学术论文20余篇，主持或承担各类基金项目8项。特别地，在跨音风扇的研制过程中，形成了完整的一维、二维设计程序及三维校验程序。2004年获得法国斯奈克玛（Snecma）科技奖一等奖，2006年获国防科技奖一等奖，在国内外核心期刊及重要学术会议上发表论文50余篇。
+夏壁灿：男，博士，北京大学数学科学学院教授、副院长。2007年入选教育部―新世纪优秀人才资助计划。主要研究领域：符号计算及其应用，基于代数方法的自动推理，程序验证。在相关领域发表学术论文（著）40 余篇。
+彭临平：女，北京航空航天大学数学学院副教授，巴塞罗那自治大学及数学研究中心的访问学者。主要在微分方程的定性与分岔理论、脉冲微分方程的稳定性理论等方面从事基础与应用研究。在Discrete and continuous dynamical systems、Acta Mathematic Sinica (English series)、Frontier of mathematics in china 等期刊发表高水平的论文十多篇，这些研究成果达到与国际同步的水平。特别地，她较早地研究了一类二次可积非Hamiltonian系统在二次非保守扰动下的极限环分岔现象，并证明了在二次小扰动下系统至多分岔出两个极限环的结论。曾主持一项国家自然科学基金天元青年基金；作为主要参加者参加了多项国家自然科学基金面上项目；以学术骨干参加了一项国际合作 项目―Hilbert 第16问题的研究。</description>
+    </item>
     
   </channel>
 </rss>

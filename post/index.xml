@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>新闻 on 北航 数学、信息与行为教育部重点实验室</title>
+    <title>新闻 on 基于流线场共轭映射的复杂曲面高精度数控加工新方法成果推广网</title>
     <link>https://fuxihao66.github.io/post/</link>
-    <description>Recent content in 新闻 on 北航 数学、信息与行为教育部重点实验室</description>
+    <description>Recent content in 新闻 on 基于流线场共轭映射的复杂曲面高精度数控加工新方法成果推广网</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Oct 2017 22:27:21 -0500</lastBuildDate>
@@ -12,12 +12,42 @@
     
     
     <item>
+      <title>出国交流</title>
+      <link>https://fuxihao66.github.io/post/fourth/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:45 +0800</pubDate>
+      
+      <guid>https://fuxihao66.github.io/post/fourth/</guid>
+      <description>2013级博士生霍冠英赴加拿大卡尔加里大学交流。
+2014级博士生苏澄赴加拿大英属哥伦比亚大学交流。</description>
+    </item>
+    
+    <item>
+      <title>参与会议</title>
+      <link>https://fuxihao66.github.io/post/fifth/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:45 +0800</pubDate>
+      
+      <guid>https://fuxihao66.github.io/post/fifth/</guid>
+      <description>2013级博士生霍冠英于2017年4月23日于上海参与会议“International Conference on Electrical,Automation and Mechanical Engineering”。
+2014级博士生苏澄于2017年4月23日于上海参与会议“International Conference on Electrical,Automation and Mechanical Engineering”。
+2013级博士生叶丹蕾于2017年11月26日于上海参与会议“International Conference on Applied Mathematics”。</description>
+    </item>
+    
+    <item>
       <title>学生毕业</title>
       <link>https://fuxihao66.github.io/post/second/</link>
       <pubDate>Mon, 16 Apr 2018 20:57:45 +0800</pubDate>
       
       <guid>https://fuxihao66.github.io/post/second/</guid>
       <description>2013级硕士生董暄雨毕业。</description>
+    </item>
+    
+    <item>
+      <title>招生</title>
+      <link>https://fuxihao66.github.io/post/third/</link>
+      <pubDate>Mon, 16 Apr 2018 20:57:45 +0800</pubDate>
+      
+      <guid>https://fuxihao66.github.io/post/third/</guid>
+      <description>新招2018级博士生胡一飞，2018级硕士生李禾雄。</description>
     </item>
     
     <item>
@@ -36,21 +66,6 @@
 2017年6月5日于重庆召开会议：面向气动曲面高端制造的“流控一体化”数控机床产品研发工程建议。
 2017年12月于北海召开会议：基于流线场共轭映射的复杂曲面高精度加工新方法。
 2018年1月于北京召开会议：面向CAD-CAE-CAM深度融合的辅助制造系统：复杂曲面流控一体化数控切削加工初步。</description>
-    </item>
-    
-    <item>
-      <title>城市建模</title>
-      <link>https://fuxihao66.github.io/post/citymodeling/</link>
-      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
-      
-      <guid>https://fuxihao66.github.io/post/citymodeling/</guid>
-      <description>概念 三维城市模型(3 Dimensional City Model，3DCM)是在二维地理信息基础上制作出的一种三维模型，经过程序开发，已发展成为三维地理信息系统，可以利用该系统分析城市的自然要素和建设要素，用户通过交互操作，得到一种真实、直观的虚拟城市环境感受。 它们研究的核心内容都是要以数字化的形式再现三维空间世界及在三维空间中的应用模拟,满足各个应用领域的需要。
-应用领域 城市规划 展现规划方案虚拟现实系统的沉浸感和互动性不但能够给用户带来强烈、逼真的感官冲击，获得身临其境的体验，还可以通过其数据接口在虚拟环境中随时获取项目的数据资料，方便大型复杂工程项目的规划、设计、投标、报批、管理，有利于设计与管理人员对各种规划设计方案进行辅助设计与方案评审。 用户在三维场景中任意漫游，人机交互，这样很多不易察觉的设计缺陷能够轻易地被发现，减少由于事先规划不周全而造成的无可挽回的损失与遗憾，大大提高了项目的评估质量。 加快设计速度运用虚拟现实系统，我们可以很轻松随意的进行修改，改变建筑高度，改变建筑外立面的材质、颜色，改变绿化密度，只要修改系统中的参数即可。从而大大加快了方案设计的速度和质量，提高了方案设计和修正的效率，也节省了大量的资金，提供合作平台 。
-数字城市 &amp;ldquo;数字城市&amp;rdquo;的基础之一是地理数据，这就为空间数据的可视化提供了一个展示丰富多彩的现实世界的一个机会。&amp;rdquo;数字城市&amp;rdquo;的空间数据包括二维数据和三维数据。二维数据的可视化问题已基本解决，剩余的问题属于艺术加工的范畴，三维数据的可视化或者说虚拟现实目前仍是一个难点。如何高效逼真地显示我们的&amp;rdquo;数字城市&amp;rdquo;是我们需要尽快解决的一个问题。
-城市三维建模方法 手动建模 Google Earth上的建筑模型基本上都是艺术家们手动建出来的（所以才买了Sketchup），国内各种号称三维城市，但实际上看起来跟真实世界差十万八千里的譬如E都市这种无一例外属于手动建模。
-2.5D建模 就是在二维地图上，加上Z轴的高度信息变成三维。但是对于x,y上同一点，只有一个高度，就是说像桥梁、高架路、下窄上宽奇葩建筑等等“悬空”的东西一律无法表示。
-自动建模 从输入数据来分为LiDAR激光扫描和图片两大方法。 LiDAR扫描数据本身已含三维坐标，并且建模准确度更高，但缺点是其仍然需要图片数据来补全纹理。 基于图片的建模利用stereo vision基本原理（就像我们两个眼睛从两个不同位置看到图像，经过我们脑补变成三维一样），从多张纯二维图片里推算出三维坐标，优点是简单实用，缺点是其精度很低。 现在大部分的大规模三维地图已经是自动建模的结果，像现在的Google Earth，Apple Map等等都是航拍图片三维重建出来的，但也会伴随后期的手工处理过程。
-城市建模趋势 随着目前无人机技术雷达成像技术、机载雷达技术以及GPS定位技术的发展的发展，基于机载雷达技术的成像在效率与效果上具有明显的优势。图片建模的精度问题是其先天的劣势，而雷达点云模型在空间的课操作性，精度上，处理难度上都相对于图片建模要具有优势。以后的城市建模必然是以机载雷达点云数据为基础，建立城市模型，而图片数据则作为后期的贴图与渲染功能进行辅助。 随着5G通讯技术的发展，数据的传输速度会得到质的飞跃，而3D城市模型，作为一个平台，将与各种数据相融合，而作为一个各种数据可视化的平台，例如虚拟降临，VR，无人驾驶、数字城市、城市监控系统等等，都会基于该平台操作。而如何将这些数据融合起来，会成为3D城市建模的另一个具有广阔前景的领域。</description>
     </item>
     
   </channel>
