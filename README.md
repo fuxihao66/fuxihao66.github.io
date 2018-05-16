@@ -1,5 +1,5 @@
 # Lab Exhibition
-This repo is used to hold the website of a lab.  
+This repo is used to hold the [website](https://bhcax.com) of a lab.  
 
 This site is built with [Hugo](https://gohugo.io/).  
 
